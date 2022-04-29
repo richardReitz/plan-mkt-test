@@ -11,6 +11,10 @@ b{
     font-weight: 400;
  }
 
+ .btnMenu{
+    display: none;
+}
+
 .menu-view{
     position: fixed;
     border-right: 1px solid #939393;
@@ -30,9 +34,21 @@ b{
     justify-content: space-between;
 }
 
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
     width: 155px;
     margin-top: 25px;
+}
+
+.navbar{
+    display: flex;
+    height: 100%;
+    align-items:  center;
 }
 
 .menu-nav ul{
@@ -78,9 +94,13 @@ b{
     color: #fff;
 }
 
+.container{
+    margin-left: 250px;
+    height: 100vh;
+}
+
 .games-section{
     height: 100%;
-    margin-left: 250px;
     padding: 0 50px;
     color: #939393;
     display: flex;
@@ -170,7 +190,6 @@ b{
 
 .cases-section{
     height: 100%;
-    margin-left: 250px;
     padding: 0 50px;
     color: #939393;
     display: flex;
@@ -252,7 +271,6 @@ b{
 
 #footer-section{
     height: 100%;
-    margin-left: 250px;
     padding: 0 50px;
     color: #939393;
     display: flex;
@@ -263,10 +281,6 @@ b{
     height: 100%;
     padding-right: 40px;
     width: 50%;
-}
-
-.contact-form{
-
 }
 
 .text-input{
@@ -369,3 +383,167 @@ input{
     width: 120px;
     height: 100px;
 }
+
+/* Mobile Screnn */
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 100vh;
+    }
+
+    .btnMenu{
+        background-color: #939393;
+        display: block;
+        text-align: center;
+        margin-right: 15px;
+        border: none;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        font-size: 1.5em;
+    }
+
+    .btnMenu:hover{
+        cursor: pointer;
+    }
+
+    .container{
+        margin: 0;
+    }
+
+    .menu-view{
+        position: static;
+        border: none;
+        background-color: #1e1e1e;
+        width:100%;
+    }
+
+    .logo-container{
+        height: 60px;
+        width: 100%;
+        background-color: #1e1e1e;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 85px;
+        margin: 0;
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        border-bottom: 1px solid #939393;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid #939393;
+    }
+    
+    .menu-nav{
+        height: 100vh;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: .2s all;
+    }
+    
+    .menu_open{
+        transform: translateX(0);
+    }
+
+    .link-inovar{
+        border: none;
+        text-align: center;
+    }
+
+    .arrow-down-inovar{
+        display: none;
+    }
+
+    .games-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .games-main{
+        padding: 25px;
+    }
+
+    .cards-view{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-blog{
+        font-size: .75em;
+    }
+
+    .cases-section{
+        padding: 0;
+        padding-top: 2100px;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-link{
+        padding: 0 25px;
+    }
+
+    .case-main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 25px;
+    }
+
+    .case-cards-view{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-cases{
+        margin: 10px 0;
+    }
+
+    #footer-section{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        padding-top: 2000px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-wrap{
+        width: 90%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-main, .contact-form{
+        padding: 0 25px;
+    }
+
+    .links-pages{
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+  }

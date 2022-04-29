@@ -1,0 +1,371 @@
+body{
+    font-family: sans-serif;
+    position: relative;
+    background-color: #1e1e1e;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+b{
+    color: #fff;
+    font-weight: 400;
+ }
+
+.menu-view{
+    position: fixed;
+    border-right: 1px solid #939393;
+    background-color: #1e1e1e;
+    width: 240px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 155px;
+    margin-top: 25px;
+}
+
+.menu-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu-nav ul li{
+    padding: 30px 0;
+}
+
+.menu-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2s all;
+}
+
+.menu-nav ul li a:hover{
+    color: rgb(170, 170, 170);
+}
+
+.link-inovar{
+    border-top: 1px solid #939393;
+    padding: 30px;
+}
+
+.arrow-down-inovar{
+    position: relative;
+    left: 180px;
+    top: 30px;
+}
+
+.text-inovar{
+    color: #939393;
+    font-size: 1.4em;
+    text-decoration: none; 
+    transition: .2s all; 
+}
+
+.text-inovar:hover{
+    color: #fff;
+}
+
+.games-section{
+    height: 100%;
+    margin-left: 250px;
+    padding: 0 50px;
+    color: #939393;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-link{
+    margin: 0;
+    color: #fff;
+}
+
+.games-main{
+    padding: 130px 50px 130px 0;
+    width: 60%;
+}
+
+.title-section{
+    margin:0;
+    font-size: 2.5em;
+}
+
+.subtitle-games{
+    font-size: 1.65em;
+}
+
+.games-main p{
+    line-height: 1.5;
+}
+
+.text{
+    color: #fff;
+}
+
+.cards-view{
+    padding-top: 130px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+}
+
+.text-card{
+    line-height: 1.5;
+}
+
+.card-gamepade{
+    padding-top: 120px;
+}
+
+.gamepade{
+    width: 85px;
+    height: 85px;
+}
+
+.text-card-call{
+    line-height: 1.3;
+    font-size: 1.7em;
+}
+
+.link-call{
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #939393;
+    text-decoration: none;
+    line-height: normal;
+    transition: .2s all;
+}
+
+.link-call:hover{
+    color: #fff;
+}
+
+.arrow-down-call{
+    position: relative;
+    top: 5px;
+    height: 20px;
+}
+
+.cases-section{
+    height: 100%;
+    margin-left: 250px;
+    padding: 0 50px;
+    color: #939393;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-main{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.case-cards-view{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-cases{
+    background-color: #292929;
+    width: 250px;
+    margin-right: 25px;
+    transition: .3s all;
+}
+
+.card-cases:hover{
+    box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+}
+
+.img-case{
+    height: 200px;
+    width: 250px;
+}
+
+.link-blog{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #939393;
+    margin: 5px 15px;
+}
+
+.subtitle-case-card{
+    background-color: #939393;    
+    color: #292929;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.case-card-content{
+    padding: 12px;
+}
+
+.title-case-card{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.text-case-card{
+    font-size: .8em;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.link-more{
+    text-transform: uppercase;
+    color: #939393;
+    text-decoration: none;
+    font-size: .9em;
+    transition: .2s all;
+}
+
+.link-more:hover{
+    color: #fff;
+}
+
+#footer-section{
+    height: 100%;
+    margin-left: 250px;
+    padding: 0 50px;
+    color: #939393;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-wrap{
+    height: 100%;
+    padding-right: 40px;
+    width: 50%;
+}
+
+.contact-form{
+
+}
+
+.text-input{
+    margin: 0;
+    color: #fff;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid #939393;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 5px;
+}
+
+.input-name{
+    width: 100%;
+}
+
+.input-half-view{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-email{
+    width: 95%;
+}
+
+.input-view{
+    display: inline-block;
+    width: 100%;
+}
+
+.input-tel{
+    width: 100%;
+}
+
+#textarea{
+    background-color: transparent;
+    border: 1px solid #939393;
+    margin-bottom: 20px;
+    width: 100%;
+    resize: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.links-pages{
+    width: 50%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer-section p{
+    line-height: 1.5;
+}
+
+.links-container{
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+}
+
+.social-view{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.wrap-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #939393;        
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.wrap-icon:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+
+.fa-brands{
+    color: #1e1e1e;
+    font-size: 1.4em;
+}
+
+.title-pages{
+    font-size: 1.4em;
+}
+
+.img-pages{
+    width: 120px;
+    height: 100px;
+}
